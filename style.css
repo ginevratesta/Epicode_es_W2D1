@@ -16,7 +16,7 @@ body {
 #box:hover .appear {
   display: block;
 }
-.appear{
+.appear {
   display: none;
   position: absolute;
 }
