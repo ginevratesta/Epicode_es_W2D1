@@ -16,6 +16,10 @@ body {
 #box:hover .appear {
   display: block;
 }
+.appear{
+  display: none;
+  position: absolute;
+}
 #savebutton:hover {
   top: 10%;
 }
@@ -31,28 +35,20 @@ body {
 }
 
 #savebutton {
-  position: absolute;
   right: 10%;
   top: 5%;
-  display: none;
 }
 #optionsbutton {
-  position: absolute;
   bottom: 5%;
   right: 10%;
-  display: none;
 }
 #sharebutton {
-  position: absolute;
   bottom: 5%;
   right: 20%;
-  display: none;
 }
 #srcbutton {
-  position: absolute;
   left: 10%;
   bottom: 5%;
-  display: none;
 }
 #card {
   width: 100%;
@@ -60,8 +56,6 @@ body {
 }
 
 #shadow {
-  display: none;
-  position: absolute;
   width: 100%;
   height: 480px;
   background: rgb(255, 255, 255);
