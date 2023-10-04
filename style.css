@@ -39,7 +39,6 @@ body {
 #srcbutton {
   height: 30px;
   border: none;
-  font-weight: bold;
 }
 #optionsbutton,
 #sharebutton,
@@ -51,6 +50,7 @@ body {
 #savebutton,
 #optionsbutton {
   right: 10%;
+  font-weight: bold;
 }
 #savebutton,
 #srcbutton {
