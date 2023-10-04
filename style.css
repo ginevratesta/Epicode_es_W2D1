@@ -33,23 +33,58 @@ body {
   width: 100%;
   object-fit: cover;
 }
+#savebutton,
+#optionsbutton,
+#sharebutton,
+#srcbutton {
+  height: 30px;
+  border: none;
+  font-weight: bold;
+}
+#optionsbutton,
+#sharebutton,
+#srcbutton {
+  background-color: white;
+  bottom: 5%;
+}
+
+#savebutton,
+#optionsbutton {
+  right: 10%;
+}
+#savebutton,
+#srcbutton {
+  border-radius: 30px;
+}
+
+#optionsbutton,
+#sharebutton {
+  width: 35px;
+  border-radius: 50px;
+}
+#srcbutton a {
+  color: black;
+}
 
 #savebutton {
-  right: 10%;
+  width: 70px;
+  color: white;
+  background-color: red;
   top: 5%;
 }
 #optionsbutton {
-  bottom: 5%;
-  right: 10%;
+  padding-bottom: 8px;
 }
 #sharebutton {
-  bottom: 5%;
-  right: 20%;
+  right: 25%;
+  padding-top: 5px;
 }
 #srcbutton {
+  width: 150px;
   left: 10%;
-  bottom: 5%;
+  right: 2%;
 }
+
 #card {
   width: 100%;
   object-fit: cover;
